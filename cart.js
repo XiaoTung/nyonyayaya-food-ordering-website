@@ -247,7 +247,7 @@ let products = [
         name: 'Party Set (Vegetarian B)',
         image: 'IMAGE/PARTY SET D.png',
         price: 20.00
-    }
+    },
 ];
 let listCarts  = [];
 function initApp(){
