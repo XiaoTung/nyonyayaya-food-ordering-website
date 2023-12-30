@@ -281,7 +281,7 @@ function reloadCart(){
         if(value != null){
             let newDiv = document.createElement('li');
             newDiv.innerHTML = `
-                <div><img src="${value.image}"/></div>
+                <div><img src="IMAGE/${value.image}"/></div>
                 <div>${value.name}</div>
                 <div>${value.price.toLocaleString()}</div>
                 <div>
